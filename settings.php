@@ -26,14 +26,14 @@ defined('MOODLE_INTERNAL') || die;
 
 if ($ADMIN->fulltree) {
 
-    $settings->add(new admin_setting_configtext('auth_unmulsia/serverurl',
-                                                get_string('serverurl', 'auth_unmulsia'),
-                                                get_string('serverurl_desc', 'auth_unmulsia'),
+    $settings->add(new admin_setting_configtext('auth_unmulsia/serverurllogin',
+                                                get_string('serverurllogin', 'auth_unmulsia'),
+                                                get_string('serverurllogin_desc', 'auth_unmulsia'),
                                                 '', PARAM_TEXT));
 
-    $settings->add(new admin_setting_configtext('auth_unmulsia/default_params',
-                                                get_string('default_params', 'auth_unmulsia'),
-                                                get_string('default_params_desc', 'auth_unmulsia'),
+    $settings->add(new admin_setting_configtext('auth_unmulsia/serverurldata',
+                                                get_string('serverurldata', 'auth_unmulsia'),
+                                                get_string('serverurldata_desc', 'auth_unmulsia'),
                                                 '', PARAM_TEXT));
 
     $settings->add(new admin_setting_configtext('auth_unmulsia/changepasswordurl',

@@ -31,6 +31,8 @@ $string['changepasswordurl_desc'] = 'Your custom URL for users to change their p
 
 $string['protocol'] = 'Protocol';
 $string['protocol_desc'] = 'Protocol used by webservice. Currently only REST.';
-$string['serverurl'] = 'Auth Server URL';
-$string['serverurl_desc'] = 'Full URL to webservice to execute the authentication functions';
+$string['serverurllogin'] = 'Auth Server URL for login API';
+$string['serverurllogin_desc'] = 'Full URL to webservice to execute the authentication functions';
+$string['serverurldata'] = 'Server URL data member SOAP';
+$string['serverurldata_desc'] = 'Full URL to webservice to get data member';
 $string['syncuserstask'] = 'Sync users from auth_unmulsia';
